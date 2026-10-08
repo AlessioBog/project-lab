@@ -1,0 +1,88 @@
+html, body {
+    background: #1f4068;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card {
+    background: #2a3d54;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: #f1c40f;
+    margin-bottom: 20px;
+}
+.row {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.row label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid #3498db;
+}
+.two-col {
+    display: flex;
+    gap: 12px;
+}
+.two-col > div {
+    flex: 1;
+}
+.checkbox-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn.primary {
+    background: #f1c40f;
+    color: #333;
+}
+.btn.ghost {
+    background: transparent;
+    color: #f1c40f;
+    border: 1px solid #f1c40f;
+}
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+.login-link a {
+    color: #f1c40f;
+    text-decoration: none;
+}
