@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acasă - Comunitatea de Tehnologii Web</title>
+    <link rel="stylesheet" href="../CSS/home_style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Pasul 3: Flexbox Navigation Bar -->
+            <nav class="flex-nav">
+                <div class="brand">FMI WebTech 2025</div>
+                <div class="nav-links">
+                    <a href="#">Acasă</a>
+                    <a href="chatbot.html">ChatBot</a>
+                    <a href="login.html">Logout</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Pasul 5: Layout Responsiv (Sidebar + Main) -->
+    <div class="container layout">
+        <aside class="sidebar">
+            <h2>Meniu Sidebar</h2>
+            <p>Informații utile despre facultate.</p>
+            <ul>
+                <li><a href="#">Resurse studenți</a></li>
+                <li><a href="#">Orar</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <!-- Pasul 1: Selectori CSS -->
+            <section class="mb-section">
+                <p class="important">Anunț important: Prezența la curs este esențială!</p>
+            </section>
+
+            <!-- Pasul 2: CSS Box Model -->
+            <section class="mb-section">
+                <h2>Testare Box Model</h2>
+                <div class="box-model-container">
+                    <div class="card-a">Card A (content-box)</div>
+                    <div class="card-b">Card B (border-box)</div>
+                </div>
+            </section>
+
+            <!-- Pasul 4: Galerie CSS Grid (6 carduri) -->
+            <section>
+                <h2>Tehnologii Relevante</h2>
+                <div class="gallery">
+                    <div class="column">
+                        <h3>HTML5</h3>
+                        <p>Structura semantică a paginilor.</p>
+                    </div>
+                    <div class="column">
+                        <h3>CSS3</h3>
+                        <p>Stilizare, Box Model, Flexbox și Grid.</p>
+                    </div>
+                    <div class="column">
+                        <h3>JavaScript</h3>
+                        <p>Interactivitate și logică web.</p>
+                    </div>
+                    <div class="column">
+                        <h3>Node.js</h3>
+                        <p>Dezvoltare pe partea de server.</p>
+                    </div>
+                    <div class="column">
+                        <h3>React</h3>
+                        <p>Bibliotecă pentru interfețe complexe.</p>
+                    </div>
+                    <div class="column">
+                        <h3>Baze de date</h3>
+                        <p>Stocare persistentă a datelor (SQL/NoSQL).</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Comunitatea de Tehnologii Web</p>
+            <p>
+                <a href="#">Universitatea de Vest din Timișoara</a> |
+                <a href="#">Facultatea de Informatică</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
